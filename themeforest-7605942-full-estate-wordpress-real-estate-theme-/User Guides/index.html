@@ -1,0 +1,1402 @@
+<!doctype html>  
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	
+	<title>Full State - Documentation</title>
+	
+	<meta name="description" content="Thank you for purchasing my theme. If you have any questions that are beyond the scope of this help file, please feel free to start a discussion at my support forum. Thanks so much!">
+	
+	<link rel="stylesheet" href="css/documenter_style.css" media="all">
+	<link rel="stylesheet" href="css/docs.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="css/prettyPhoto.css">
+
+	<script src="js/jquery.1.6.4.js"></script>
+	<script src="js/cufon.js"></script><script src="js/font.js"></script>
+	<script src="js/jquery.scrollTo-1.4.2-min.js"></script>
+	<script src="js/jquery.easing.js"></script>
+	<script src="js/jquery.prettyPhoto.js"></script>
+	
+	<link rel="stylesheet" href="css/shDocumenter.css" media="screen">
+	<script src="js/shCore.js"></script>
+	<script src="js/shBrushXml.js"></script>
+	<script src="js/shBrushPlain.js"></script>
+	<script>SyntaxHighlighter.defaults['toolbar'] = false;SyntaxHighlighter.all();</script>
+
+	<script>document.createElement('section');var duration=450,easing='easeOutExpo';</script>
+	<script src="js/script.js"></script>
+	
+	<style>
+		html{background-color:#F3F3F3;color:#585858;background-image:url(assets/images/image_1.png);background-repeat:repeat;background-attachment:fixed;}
+		::-moz-selection{background:#111111;color:#F1F1F1;}
+		::selection{background:#111111;color:#F1F1F1;}
+		#documenter_sidebar #documenter_logo{background-image:url(assets/images/image_2.png);}
+		a{color:#111111;}
+		hr{border-top:1px solid #E5E5E5;border-bottom:1px solid #F9F9F9;}
+		#documenter_sidebar, #documenter_sidebar ol a{background-color:#333333;color:#F1F1F1;}
+		#documenter_sidebar ol a{-webkit-text-shadow:1px 1px 0px #444444;-moz-text-shadow:1px 1px 0px #444444;text-shadow:1px 1px 0px #444444;}
+		#documenter_sidebar ol{border-top:1px solid #222222;}
+		#documenter_sidebar ol a{border-top:1px solid #444444;border-bottom:1px solid #222222;color:#F1F1F1;}
+		#documenter_sidebar ol a:hover{background:#111111;color:#F1F1F1;border-top:1px solid #111111;}
+		#documenter_sidebar ol a.current{background:#111111;color:#F1F1F1;border-top:1px solid #111111;}
+		#documenter_copyright{display:block !important;visibility:visible !important;}
+	</style>
+	
+<script type="text/javascript">
+      $(document).ready(function(){
+    
+            var $filterType = $('#portfolio_filter div.current').attr('data-value');
+            var $holder = $('#portfolio_items');
+            var $data = $holder.clone();
+            var $preferences = {
+                duration: 600,
+                easing: 'easeInOutQuad'
+            };
+        
+        $('#portfolio_filter > div').click(function(e){
+
+                $('#portfolio_filter > div').removeClass('current');
+                var $filterType = $(this).attr('data-value');
+
+                $(this).addClass('current');
+                
+                if($filterType == 'all'){
+                    var $filteredData = $data.find('li');
+                }
+                else{
+                    var $filteredData = $data.find('li[data-type~=' + $filterType + ']');
+                }
+                  
+                $holder.quicksand($filteredData, $preferences);
+
+           });
+       
+      });
+    </script>
+
+	
+</head>
+<body>
+	<div id="documenter_sidebar">
+		<a href="#documenter_cover" id="documenter_logo"></a>
+		<ol id="documenter_nav">
+			<li><a class="current" href="#documenter_cover">Start</a></li>
+			<li><a href="#Introduction">Introduction</a></l
+			Wordpress installation
+			<li><a href="#installation_and_activation">Installation and activation</a></li>
+			<li><a href="#Settings_General">Settings General</a></li>
+			<li><a href="#options_general">Options general</a></li>
+			<li><a href="#slider">Slider</a></li>
+			<li><a href="#zone">All zone</a></li>
+			<li><a href="#filter">Filter Option</a></li>
+			<li><a href="#page">All Pages</a></li>
+			<li><a href="#icons">All Icons</a></li>
+			<li><a href="#demo">Backup Demo</a></li>
+			<li><a href="#map">Google maps</a></li>
+			<li><a href="#newslatter">Newslatter</a></li>
+			<li><a href="#background_style">Background Style</a></li>
+			<li><a href="#css">CSS</a></li>
+			<li><a href="#jguery">Jguery</a></li>
+			<li><a href="#different_resolutions">Different Resolutions</a></li>
+			<li><a href="#sources_credits">Sources & Credits</a></li>
+			<li><a href="#Rating">Rating</a></li>
+			<li><a href="#final_words">Final Words</a></li>
+			
+
+		</ol>
+		<div id="documenter_copyright">Copyright freedesigns 2014<br>
+		</div>
+	</div>
+	<div id="documenter_content">
+	<section id="documenter_cover"><h1>Full State</h1>
+	<h2>Software And Corporate WordPress Template</h2>
+	<hr><ul>
+	  <li>Created: 15/04/2014</li>
+	  <li>By: freedesigns</li><li><a href="http://themeforest.net/user/freedesigns"></a></li>
+	  <li>Email: <a href="mailto:freedesigns@ymail.com">freedesigns@ymail.com</a></li>
+	  <li>support: <a href="mailto:support@freedesigns.me">support@freedesigns.me</a></li>
+	  <li>Themes: <a href="http://www.freedesigns.me">www.freedesigns.me</a></li> 
+	</ul><p>Thank you for purchasing my theme. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page or my social links contact. Thanks so much!</p></section>
+
+<section id="Introduction">
+<div class="by">
+				<p class="prepend-top">
+					<strong>
+					Created: 15/04/2014<br>
+					By: Freedesigns<br>
+					Email: <a href="mailto:support@freedesigns.me">support@freedesigns.me</a>
+					</strong>
+				</p>
+			</div><!-- end div .by -->	
+	<h3>Introduction</h3><hr class="notop">
+<p>	Here&#39;s the general Introduction of this item:</p>
+<p>Full State is a clean and elegant WordPress theme for Real State and corporate. This template can also be used for business websites, portfolios and more. The CSS and design is flexible, easy to customize and modify. Is a unique design based on Bootstrap, is sensitive and is consistent with a wide range of mobile devices.</p>
+ 
+ <p class="prepend-top append-0">Thank you for purchasing my theme. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form <a href="mailto:support@freedesigns.me">here</a>. Thanks so much!</p>
+ 
+ 
+<p>This theme was created with Wordpress version 3.9</p>
+
+<p>&nbsp;	</p>
+
+</section>
+
+<section id="installation_and_activation">
+	<h3>Wordpress installation</h3><hr class="notop">
+<p>	- This Theme is a responsive layout with up to 16 colums based on the 1170 Bootstrap System. It uses <strong>media queries</strong> to fit for <a href="#different_resolutions">different screen resolutions</a>.</p>
+
+<p> - If you don't have Wordpress on your server yet, you can download a copy of  the latest Wordpress version <a href="http://wordpress.org/">here</a>. Next, go through the installation instructions inside readme.html file to install Wordpress on your server.</p>
+
+<p>- In order to install Full State Theme, follow these steps:
+                <ol>
+                    <li>Extract your download package .zip file and look for the folder named "Full State - Responsive-Wordpress-theme.zip".</li>
+                    <li>Next, enter this folder and upload Full State folder to http://yourdomain.com/your_wordpress_dir/wp-content/themes/ directory via any FTP program like Filezilla or CuteFTP.</li>
+                </ol>
+                You can also install this theme directly via Wordpress Theme install option. In order to do that, upload Full State.zip file by WordPress install theme panel.</p>
+
+				
+<p>Please note that some hostings have a restriction on a size of a file that you are uploading. If any warnings appear, most probably, your hosting has file size limit. And the theme .zip file is too large to be uploaded via WordPress Panel. You can try contacting your hosting provider and ask to ease this restrictions.</p>
+
+<p>Otherwise you can install theme via FTP. Simply unzip the installable file and upload the theme folder via FTP into "your_site/wp-content/themes/".</p>
+
+<p>Attention! Theme will work fine on the vast majority of correctly installed and configured WordPress sites without any additional settings. However on some (very rear) hosting configurations you can notice that images on your site are not displaying. If you are experiencing this issue, please follow these steps to fix it:</p>
+
+<ol>
+<li>Make sure that theme installed strictly to your_site/wp-content/themes/folder.
+<li>The "folder your_site/wp-content/uploads" must be created. On some hostings you will need to set its CHMOD to 755, on others to 777.
+</ol>
+
+<h6>If above steps did not yield any results, please don’t hesitate to address this issue directly to your hosting company. Since this is most likely a server-related problem, we will not be able to help you!</h6>
+				
+<h4>Theme activation:</h4>
+<p> - To activate Full State Theme, log into your Wordpress admin using the following URL: http://yourdomain.com/your_wordpress_dir/wp-login.php
+                Next, go to Appearance > Themes. Here, you should see a thumbnail of Full State Theme. Click on the ''Activate'' button to activate your new theme.
+                </p>
+				
+<ul id="portfolio_items" class="clearfix">
+
+          <li data-id="id1" class="portfolio_item pfolio2 eight columns" data-type="web-design">
+            <a href="assets/images/activation_1.png" class="prettyPhoto" title="Custom Design">
+               <span class="roll"></span>
+                <img src="assets/images/activation_1.png"/>
+                <div class="pfolio_desc">
+                  <p>Here it shows how you can activate your topic.</p>
+                </div>
+            </a>
+          </li>
+		  
+		  <li data-id="id2" class="portfolio_item pfolio2 eight columns" data-type="web-design">
+            <a href="assets/images/activation_2.png" class="prettyPhoto" title="Custom Design">
+               <span class="roll"></span>
+                <img src="assets/images/activation_2.png"/>
+                <div class="pfolio_desc">
+                  <p>Here your site will now be displayed after installed.</p>
+                </div>
+            </a>
+          </li>
+</ul>
+<div id="video">
+<p>The following video shows how you can install and activate the theme:</p>
+   <iframe src="http://player.vimeo.com/video/92287343?title=0&amp;byline=0&amp;portrait=0" width="580" height="383" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+</div>
+
+<h4>Theme Child:</h4>
+<p> - It's theme is ready to support Child Theme.</p>
+<p> - A WordPress child theme is a theme that inherits the functionality of another theme, called the parent theme. Child theme allows you to modify, or add to the functionality of that parent theme. A child theme is the safest and easiest way to modify an existing theme, whether you want to make a few tiny changes or extensive changes. Instead of modifying the theme files directly, you can create a child theme and override within.</p>
+		<ul>			
+			<li><a href="http://codex.wordpress.org/Child_Themes" target="blank">Child Themes</a></li>			
+		</ul>
+
+
+				
+<h4>Importing about install</h4>
+
+	<p>- It is very important that before you start typing in your subject content area, select the option of "Post name": Follow the steps below.
+                <ol>
+                    <li>Go to the admin panel of your topic "Dashboard" url: http://yourdomain.com/your_wordpress_dir/wp-admin</li>
+                    <li>Then head to Setting/permalinks (http://yourdomain.com/your_wordpress_dir/wp-admin/options-permalink.php).</li>
+					<li>In the option "Common Settings" select the option "Post name".</li>
+				</ol>
+                </p>
+<div id="video">
+<p>The following video shows how to turn on the issue permalink:</p>
+   <iframe src="http://player.vimeo.com/video/92289416?title=0&amp;byline=0&amp;portrait=0" width="580" height="383" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+</div>
+
+
+<section id="Settings_General">
+<h3>Settings General</h3><hr class="notop">
+<p>It is important to do these steps for the proper functioning of your site.</p>
+
+<p> - In general options for the site gives you many options, such as the site name, site url, etc.. to change all these options, go to your WordPress admin using the Following URL:http://yourdomain.com/your_wordpress_dir/wp-admin/options-general.php</p>
+<p> - You may set the number of post to display on your website and other options more. To edit these options will: URL:http://yourdomain.com/your_wordpress_dir/wp-admin/options-reading.php</p>
+
+<ul id="portfolio_items" class="clearfix">
+
+          <li data-id="id3" class="portfolio_item pfolio2 eight columns" data-type="web-design">
+            <a href="assets/images/setting_1.png" class="prettyPhoto" title="Custom Design">
+               <span class="roll"></span>
+                <img src="assets/images/setting_1.png"/>
+                <div class="pfolio_desc">
+                  <p>Here you can edit the title, email, url and other place.</p>
+                </div>
+            </a>
+          </li>
+		  
+		  <li data-id="id4" class="portfolio_item pfolio2 eight columns" data-type="web-design">
+            <a href="assets/images/setting_2.png" class="prettyPhoto" title="Custom Design">
+               <span class="roll"></span>
+                <img src="assets/images/setting_2.png"/>
+                <div class="pfolio_desc">
+                  <p>Here you can define the amount of post showing your site.</p>
+                </div>
+            </a>
+          </li>
+</ul>
+
+<h3>Add new pages</h3><hr class="notop">
+<p>You should go to the wp admin panel to add new pages to your topic, to add and edit your pages should go to: Dashboard/pages.</p>
+
+<p> -When creating a new page may give some style on the General option of the theme admin panel. Simply select the style that will give your page created.</p>
+
+<ul id="portfolio_items" class="clearfix">
+
+          <li data-id="id5" class="portfolio_item pfolio2 eight columns" data-type="web-design">
+            <a href="assets/images/allpage_1.png" class="prettyPhoto" title="Custom Design">
+               <span class="roll"></span>
+                <img src="assets/images/allpage_1.png"/>
+                <div class="pfolio_desc">
+                  <p>Here you can add all the pages you want on your topic.</p>
+                </div>
+            </a>
+          </li>
+		  
+		  <li data-id="id6" class="portfolio_item pfolio2 eight columns" data-type="web-design">
+            <a href="assets/images/allpage_2.png" class="prettyPhoto" title="Custom Design">
+               <span class="roll"></span>
+                <img src="assets/images/allpage_2.png"/>
+                <div class="pfolio_desc">
+                  <p>Here you can define the style that will have your pages.</p>
+                </div>
+            </a>
+          </li>
+</ul>
+
+<div id="video">
+<p>The video below demonstrates how you can create new pages:</p>
+   <iframe src="http://player.vimeo.com/video/92290357?title=0&amp;byline=0&amp;portrait=0" width="580" height="383" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+</div>
+
+<h3>Static Front Page</h3><hr class="notop">
+<p>To configure home page, firstly you need to select type of content displayed on that page. It can be a static page or a list of posts. In order to do this, go to Settings -> Reading and in Front Page Displays option, choose an option that you are interested in.</p>
+
+<div id="video">
+<p>The video below demonstrates how you can activate your Static Front Page:</p>
+   <iframe src="http://player.vimeo.com/video/92290996?title=0&amp;byline=0&amp;portrait=0" width="580" height="383" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+</div>
+
+</section>
+
+<section id="options_general">
+
+<h3>General Options</h3><hr class="notop">
+
+<p> - In the admin panel theme, find all the necessary options to edit the content of your website. Here you can add and remove any content you want, such as text, images, logos, etc ...</p>
+
+<p>	- The administration panel that was created for this theme was designed with the objective that the user can more easily manage your site.</p>
+
+<p>	- You can define how the content of your pages is going to be show, you can define each location of content, edit the names of static menus.</p>
+
+<p>	- To edit the content of the web panel administration go to the website:
+http://yourdomain.com/your_wordpress_dir//wp-admin/themes.php?page=options-framework</p>
+
+<ol>
+    <li>Information: In this option you can add text link, you can also add icons to the texts.</li>
+	<li>Newsletter Section: In the tab of the Widget is a sidebar called "Sidebar Newsletter" there you can use the widget you want for that section, we recommend using this widget "mailchimp" .</li>
+	<li>Logo Zone: Here you can edit the name and logo of your website. </li>
+	<li>Favico and Logo Login: Here you can add the Favicon image your site will show.</li> 
+</ol>
+
+<ul id="portfolio_items" class="clearfix">
+
+          <li data-id="id7" class="portfolio_item pfolio2 eight columns" data-type="web-design">
+            <a href="assets/images/options_1.png" class="prettyPhoto" title="Custom Design">
+               <span class="roll"></span>
+                <img src="assets/images/options_1.png"/>
+                <div class="pfolio_desc">
+                  <p>Here all general edit your topic.</p>
+                </div>
+            </a>
+          </li>
+		  
+		  <li data-id="id8" class="portfolio_item pfolio2 eight columns" data-type="web-design">
+            <a href="assets/images/options_2.png" class="prettyPhoto" title="Custom Design">
+               <span class="roll"></span>
+                <img src="assets/images/options_2.png"/>
+                <div class="pfolio_desc">
+                  <p>Here you can edit and define all the General option.</p>
+                </div>
+            </a>
+          </li>
+</ul>
+
+<h3>Configuration Footer Options</h3><hr class="notop">
+
+<p>	- In tis option you can edit the Footer info, and add all the information you want to show.</p>
+
+<p>First Zone Configuration </p>
+<ol>
+    <li>In the first area you can put a banner with various texts and that includes your text link and button.</li>
+			
+</ol>
+
+<p>Second Zone Configuration </p>
+<ol>
+                    <li>First Section: In this option you could add a region with title and several texts with your link. You can also add text to the icons.</li>
+                    <li>Second Section: In this option you can a region title and several link in menu form.</li>
+					<li>Third Section: Here you can display "tags" Site.</li>	
+                    <li>Fourth Section: Here you can put a comment and name of the author of comenterio.</li>
+                    <li>Copyright Zone: Here you can edit the copyright of your site, and choice the number of domain. In Text Link you can choice the number of links for show and edit the content.</li>					
+</ol>
+
+
+<ul id="portfolio_items" class="clearfix">
+
+          <li data-id="id7" class="portfolio_item pfolio2 eight columns" data-type="web-design">
+            <a href="assets/images/footer_1.png" class="prettyPhoto" title="Custom Design">
+               <span class="roll"></span>
+                <img src="assets/images/footer_1.png"/>
+                <div class="pfolio_desc">
+                  <p>Here you can edit the content of the footer section.</p>
+                </div>
+            </a>
+          </li>
+		  
+		  <li data-id="id8" class="portfolio_item pfolio2 eight columns" data-type="web-design">
+            <a href="assets/images/footer_2.png" class="prettyPhoto" title="Custom Design">
+               <span class="roll"></span>
+                <img src="assets/images/footer_2.png"/>
+                <div class="pfolio_desc">
+                  <p>Here you can edit the content of the footer section.</p>
+                </div>
+            </a>
+          </li>
+</ul>
+
+<div id="video">
+<p>The video below demonstrates how you edit the footer seccion.</p>
+   <iframe src="http://player.vimeo.com/video/92291352?title=0&amp;byline=0&amp;portrait=0" width="580" height="383" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+</div>
+
+</section>
+
+
+<section id="slider">
+
+<h3>Slider ( Revolution Sliders )</h3><hr class="notop">
+
+<p> slider of our site is integrated with plugins "Slider Revolution! Responsive WordPress Plugin". This plugin gives you the ability to create the fomra the slider in place. </p>
+
+<p>Create a responsive(mobile friendly) or fullwidth slider with must-see-effects and meanwhile keep or build your SEO optimization (all content always readable for search engines). 
+See the heaps of custom transitions/animations for each object on the page! Customize this slider with our convenient drag&drop backend to your very needs.</p>
+
+<a href="http://codecanyon.net/user/themepunch?ref=themepunch" rel="nofollow">Slider Revolution! Responsive WordPress Plugin</a>
+
+<p>How to install</p>
+
+<p> -  above all it is very important that you copy the plugins called "revslider" in http://yourdomain.com/your_wordpress_dir/wp-content//plugins </p>
+<p> -  after copy go to the administration panel of Wordpress "Dashboard" and in section plugins, activate the plugins "Revolution Slider".And thus is activated the plugin.</p>
+
+<p>Then proceed to the Revolution Slider system settings on your subject.</p>
+
+<p> -   First you must create your slider set as his slider is displayed to define width, length, etc...</p>
+<p> -   After setting up your slider, you must follow these steps to turn your show your slider in the Home page..</p>
+
+<ol>
+                    <li>Go to Dashboard/Revolution Slider</li>
+					<li>Copy the text that is inside the box called "Slider Alias:"</li>
+					<li>Go to Dashboard/Appearance/Theme Options/General Options/Slider </li>
+					<li>Paste in the text box tab Slider of the copied text into the box "Slider Alias:" </li>
+					<li>Then save, and his slider is displayed correctly on your Home page.</li>
+
+</ol>
+
+
+<ul class="clearfix" id="portfolio_items">
+
+          <li data-type="web-design" class="portfolio_item pfolio2 eight columns" data-id="id7">
+            <a title="Custom Design" class="prettyPhoto" href="assets/images/slider_1.png">
+               <span class="roll"></span>
+                <img src="assets/images/slider_1.png">
+                <div class="pfolio_desc">
+                  <p>Here you can edit the content of the slider section.</p>
+                </div>
+            </a>
+          </li>
+		  
+		  <li data-type="web-design" class="portfolio_item pfolio2 eight columns" data-id="id8">
+            <a title="Custom Design" class="prettyPhoto" href="assets/images/slider_2.png">
+               <span class="roll"></span>
+                <img src="assets/images/slider_2.png">
+                <div class="pfolio_desc">
+                  <p>Here you can edit the content of the slider section.</p>
+                </div>
+            </a>
+          </li>
+</ul>
+
+<div id="video">
+<p>The video below demonstrates how you edit the slider seccion.</p>
+   <iframe src="http://player.vimeo.com/video/92291721?title=0&amp;byline=0&amp;portrait=0" width="580" height="383" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+</div>
+
+
+</section>
+
+<section id="zone">
+
+<h3>Site Content</h3>
+
+<p>	- The site content is created with several content areas which you can implement to your liking and you can design your pages as you wish. 
+With this new option is very easy to create your pages according to the needs and characteristics of your site. May create as many pagians you want with the content you want.</p>
+
+
+
+<h3>Types of Zones</h3><hr class="notop">
+
+
+<h5>Alternate Info Data Zone</h5>
+
+<p>In this area you can add multiple content with title, description and a variety of types 400 icons.</p>
+
+<ul id="portfolio_items" class="clearfix">
+
+          <li data-id="id7" class="portfolio_item pfolio2 eight columns" data-type="web-design">
+            <a href="assets/images/zone_1.png" class="prettyPhoto" title="Custom Design">
+               <span class="roll"></span>
+                <img src="assets/images/zone_1.png"/>
+                <div class="pfolio_desc">
+                  <p>Here you can edit and set the Alternate Info Data Zonen in your site.</p>
+                </div>
+            </a>
+          </li>
+		  
+		  <li data-id="id8" class="portfolio_item pfolio2 eight columns" data-type="web-design">
+            <a href="assets/images/zone_1.1.png" class="prettyPhoto" title="Custom Design">
+               <span class="roll"></span>
+                <img src="assets/images/zone_1.1.png"/>
+                <div class="pfolio_desc">
+                  <p>Here you can edit and set the Alternate Info Data Zone in your site.</p>
+                </div>
+            </a>
+          </li>
+</ul>
+
+
+
+<h5>Comun Info Zone</h5>
+
+<p>En esta zona usted puede agregar un titulo, subtitulo y texto e forma de parrafo.</p>
+
+<ul id="portfolio_items" class="clearfix">
+
+          <li data-id="id7" class="portfolio_item pfolio2 eight columns" data-type="web-design">
+            <a href="assets/images/zone_2.png" class="prettyPhoto" title="Custom Design">
+               <span class="roll"></span>
+                <img src="assets/images/zone_2.png"/>
+                <div class="pfolio_desc">
+                  <p>Here you can edit and set the Alternate info zone in your site.</p>
+                </div>
+            </a>
+          </li>
+		  
+		  <li data-id="id8" class="portfolio_item pfolio2 eight columns" data-type="web-design">
+            <a href="assets/images/zone_2.1.png" class="prettyPhoto" title="Custom Design">
+               <span class="roll"></span>
+                <img src="assets/images/zone_2.1.png"/>
+                <div class="pfolio_desc">
+                  <p>Here you can edit and set the Alternate info zone in your site.</p>
+                </div>
+            </a>
+          </li>
+</ul>
+
+
+<h5>Include Best Plan Zone</h5>
+
+<p>En esta zona usted puede agregar los planes con un estilo de 3 planes por fila.</p>
+
+<ul id="portfolio_items" class="clearfix">
+
+          <li data-id="id7" class="portfolio_item pfolio2 eight columns" data-type="web-design">
+            <a href="assets/images/zone_3.png" class="prettyPhoto" title="Custom Design">
+               <span class="roll"></span>
+                <img src="assets/images/zone_3.png"/>
+                <div class="pfolio_desc">
+                  <p>Here you can edit and set the Alternative Midle Zone in your site.</p>
+                </div>
+            </a>
+          </li>
+		  
+		  <li data-id="id8" class="portfolio_item pfolio2 eight columns" data-type="web-design">
+            <a href="assets/images/zone_3.1.png" class="prettyPhoto" title="Custom Design">
+               <span class="roll"></span>
+                <img src="assets/images/zone_3.1.png"/>
+                <div class="pfolio_desc">
+                  <p>Here you can edit and set the Alternative Midle Zone in your site.</p>
+                </div>
+            </a>
+          </li>
+</ul>
+
+
+<h5>Include Plans Zone</h5>
+
+<p>En esta zona usted puede agregar los planes con un estilo de 4 planes por fila.</p>
+
+<ul id="portfolio_items" class="clearfix">
+
+          <li data-id="id7" class="portfolio_item pfolio2 eight columns" data-type="web-design">
+            <a href="assets/images/zone_4.png" class="prettyPhoto" title="Custom Design">
+               <span class="roll"></span>
+                <img src="assets/images/zone_4.png"/>
+                <div class="pfolio_desc">
+                  <p>Here you can edit and set the Comun info zone in your site.</p>
+                </div>
+            </a>
+          </li>
+		  
+		  <li data-id="id8" class="portfolio_item pfolio2 eight columns" data-type="web-design">
+            <a href="assets/images/zone_4.1.png" class="prettyPhoto" title="Custom Design">
+               <span class="roll"></span>
+                <img src="assets/images/zone_4.1.png"/>
+                <div class="pfolio_desc">
+                  <p>Here you can edit and set the Comun info zone in your site.</p>
+                </div>
+            </a>
+          </li>
+</ul>
+
+
+
+
+<h5>Include Slider</h5>
+
+<p>In this area you should put in the Slider Name "Slider Alias" Revolution Sliders and automatically appear on your site.</p>
+
+<ul id="portfolio_items" class="clearfix">
+
+          <li data-id="id7" class="portfolio_item pfolio2 eight columns" data-type="web-design">
+            <a href="assets/images/zone_6.png" class="prettyPhoto" title="Custom Design">
+               <span class="roll"></span>
+                <img src="assets/images/zone_6.png"/>
+                <div class="pfolio_desc">
+                  <p>Here you can edit and set the Include Slider Zone in your site.</p>
+                </div>
+            </a>
+          </li>
+		  
+		  <li data-id="id8" class="portfolio_item pfolio2 eight columns" data-type="web-design">
+            <a href="assets/images/zone_6.1.png" class="prettyPhoto" title="Custom Design">
+               <span class="roll"></span>
+                <img src="assets/images/zone_6.1.png"/>
+                <div class="pfolio_desc">
+                  <p>Here you can edit and set the Include Slider Zone in your site.</p>
+                </div>
+            </a>
+          </li>
+</ul>
+
+
+<h5>Include Team Zone</h5>
+
+<p>In this area you display the "Team" I believe in your site, just select which you want to appear in your area.</p>
+
+<ul id="portfolio_items" class="clearfix">
+
+          <li data-id="id7" class="portfolio_item pfolio2 eight columns" data-type="web-design">
+            <a href="assets/images/zone_7.png" class="prettyPhoto" title="Custom Design">
+               <span class="roll"></span>
+                <img src="assets/images/zone_7.png"/>
+                <div class="pfolio_desc">
+                  <p>Here you can edit and set the Include Team Zone in your site.</p>
+                </div>
+            </a>
+          </li>
+		  
+		  <li data-id="id8" class="portfolio_item pfolio2 eight columns" data-type="web-design">
+            <a href="assets/images/zone_7.1.png" class="prettyPhoto" title="Custom Design">
+               <span class="roll"></span>
+                <img src="assets/images/zone_7.1.png"/>
+                <div class="pfolio_desc">
+                  <p>Here you can edit and set the Include Team Zone in your site.</p>
+                </div>
+            </a>
+          </li>
+</ul>
+
+
+
+
+</section>
+
+
+<section id="filter">
+
+<h3>Configuration Filter Options</h3><hr class="notop">
+
+<p>The theme features a highly advanced filter. To better site performance we have integrated this filter 
+<a href="https://wordpress.org/plugins/taxonomy-metadata/">Taxonomy Metadata</a> You can create several types of filters such as widget Filter and
+Shortcode Filter.</p>
+
+<h5>Taxonomy Metadata</h5>
+<p>This plugin implements the metadata infrastructure for taxonomy terms, so you can add custom metadata (by key) to tags, categories, and other taxonomies. The majority of the code is from sirzooro's submission to the WordPress Core Trac. The rest of the plugin is simply some hacky glue to make this work without modifying the Core. It does not implement any UI for taxonomy term metadata.
+
+The plugin implements the following functions, from which you can build your own custom UI and display code:</p>
+
+
+<p>It is very important that you create the page for the results of your filter copied to the editor contents of this page shortcode "[meta_data_filter_results] [/ meta_data_filter_results]"</p>
+
+<p>Note: Failure to copy this shortcode your page result does not throw any result.</p>
+
+<p>It is important that you edit the option "Meta Data Filter Settings" and the option Search Result Page put the ulr of the page that I think for the results of your filter, it is also important to bring this route "inc / mdf / result" in Output option template searched the posts.</p>
+
+<ul class="clearfix" id="portfolio_items">
+
+          <li data-type="web-design" class="portfolio_item pfolio2 eight columns" data-id="id7">
+            <a title="Custom Design" class="prettyPhoto" href="assets/images/filtercode_1.png">
+               <span class="roll"></span>
+                <img src="assets/images/filtercode_1.png">
+                <div class="pfolio_desc">
+                  <p>Here you can edit and set the Filter page in your site.</p>
+                </div>
+            </a>
+          </li>
+		  
+		  <li data-type="web-design" class="portfolio_item pfolio2 eight columns" data-id="id8">
+            <a title="Custom Design" class="prettyPhoto" href="assets/images/filtercode_2.png">
+               <span class="roll"></span>
+                <img src="assets/images/filtercode_2.png">
+                <div class="pfolio_desc">
+                  <p>Here you can edit and set the Filter page in your site.</p>
+                </div>
+            </a>
+          </li>
+</ul>
+
+
+
+
+<h5>Widgets Filter</h5>
+
+<div id="video">
+<p>The following video shows how you can add Widgets Filter in your theme:</p>
+   <iframe src="http://player.vimeo.com/video/113424078?title=0&amp;byline=0&amp;portrait=0" width="580" height="383" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+</div>
+
+<h5>Shortcodes Filter</h5>
+
+<div id="video">
+<p>The following video shows how you can add Shortcodes Filter in your theme:</p>
+   <iframe src="http://player.vimeo.com/video/113426121?title=0&amp;byline=0&amp;portrait=0" width="580" height="383" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+</div>
+
+<h5>Templete Result</h5>
+
+<p>The filter installed on the site needs a results page to show all search results. That's important to know this information so that you get a good result by setting up filters for your site.</p>
+
+<p>In filter needs a page result for each filter you make to your site. The theme has several bandstand numbered 1 to 10 results.</p>
+
+<p><strong>These are the bandstand results.</strong></p>
+
+<pre>
+inc/mdf/result
+inc/mdf/result1
+inc/mdf/result2
+inc/mdf/result3
+inc/mdf/result4
+inc/mdf/result5
+inc/mdf/result6
+inc/mdf/result7
+inc/mdf/result8
+inc/mdf/result9
+inc/mdf/result10
+</pre>
+
+<div id="video">
+<p>The following video shows how you can add a Result page in your theme:</p>
+   <iframe src="http://player.vimeo.com/video/114154746?title=0&amp;byline=0&amp;portrait=0" width="580" height="383" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+</div>
+
+</section>
+
+
+<section id="page">
+
+
+<h3>Configuration Blog and Post Options</h3><hr class="notop">
+
+<p>	- Here you can edit the Blog and Post Options, and can choose the way your Blog and Post will be show.</p>
+
+<p>	- In this section of the administration panel you will be able to add and edit titles, texts, imagnes, etc. Blog of the page..</p>
+<p>	- To add a blog you should go to the section "Post" Dashboard panel.</p>
+<p>	- In this section of the administration panel you will be able to add and edit titles, texts, imagnes, etc. Single Blog of the page.. </p>
+
+<ol>
+
+<li> Banner: In this section you can add the title and the banner or picture that you'll get to the top of your site </li>
+
+<li> Blog Zone: In this section you may add the title of your blog page and you can also define the position of the sidebar of your blog page </li>
+<li> Post Single Zone: In this section you may add the title of your blog page and you can also define the position of the sidebar of your page Single Post </li>
+
+</ol>
+
+
+<p> You can manage some elements of these pages on the "Four Gallery options" Theme options of the site, where you can edit all of the banner, titles, text,
+may define which elements will come out in your ad. </p>
+			 
+<ul class="clearfix" id="portfolio_items">
+
+          <li data-type="web-design" class="portfolio_item pfolio2 eight columns" data-id="id7">
+            <a title="Custom Design" class="prettyPhoto" href="assets/images/blog_1.png">
+               <span class="roll"></span>
+                <img src="assets/images/blog_1.png">
+                <div class="pfolio_desc">
+                  <p>Here you can edit and set the Blog and Post page in your site.</p>
+                </div>
+            </a>
+          </li>
+		  
+		  <li data-type="web-design" class="portfolio_item pfolio2 eight columns" data-id="id8">
+            <a title="Custom Design" class="prettyPhoto" href="assets/images/blog_2.png">
+               <span class="roll"></span>
+                <img src="assets/images/blog_2.png">
+                <div class="pfolio_desc">
+                  <p>Here you can edit and set the Blog and Post page in your site.</p>
+                </div>
+            </a>
+          </li>
+</ul>
+
+<h3>Configuration Contact Style</h3><hr class="notop">
+
+<p>	- On the contact page you have several options, you can display your contact form, you can display many options in general.</p>
+
+<ol>
+
+<li>Show Map Zone: In this section you can copy the shortcode the Google Map to display the map on the contact page.</li>
+<li>Other Info: Here you can add a number of contact details of your site, such as telephone, email, addresses, etc.. </li>
+<li>Form Info: In this section you can copy the Contact Form shortcode to display the contact form on the contact page.</li>
+
+</ol>
+
+<ul id="portfolio_items" class="clearfix">
+
+          <li data-id="id15" class="portfolio_item pfolio2 eight columns" data-type="web-design">
+            <a href="assets/images/contact_1.png" class="prettyPhoto" title="Custom Design">
+               <span class="roll"></span>
+                <img src="assets/images/contact_1.png"/>
+                <div class="pfolio_desc">
+                  <p>Here you can add and edit content to show in the contact page.</p>
+                </div>
+            </a>
+          </li>
+		  <li data-id="id16" class="portfolio_item pfolio2 eight columns" data-type="web-design">
+            <a href="assets/images/contact_2.png" class="prettyPhoto" title="Custom Design">
+               <span class="roll"></span>
+                <img src="assets/images/contact_2.png"/>
+                <div class="pfolio_desc">
+                  <p>Here you can add and edit content to show in the contact page.</p>
+                </div>
+            </a>
+          </li>
+  
+</ul>
+
+
+<div id="video">
+<p>The following video shows how you can add contact page in your theme:</p>
+   <iframe src="http://player.vimeo.com/video/92880796?title=0&amp;byline=0&amp;portrait=0" width="580" height="383" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+</div>
+
+
+<h3>Configuration Property Style</h3><hr class="notop">
+
+<p>	- When you select the style Property, automatic coming out in that page summary of all the property.</p>
+
+<p>On the property you can add prices, location, images as slider, map location, description, and many more options.</p>
+
+<ul id="portfolio_items" class="clearfix">
+
+          <li data-id="id21" class="portfolio_item pfolio2 eight columns" data-type="web-design">
+            <a href="assets/images/property_1.png" class="prettyPhoto" title="Custom Design">
+               <span class="roll"></span>
+                <img src="assets/images/property_1.png"/>
+                <div class="pfolio_desc">
+                  <p>Here you can edit all the content and style of the Property page of your site.</p>
+                </div>
+            </a>
+          </li>
+		  <li data-id="id21" class="portfolio_item pfolio2 eight columns" data-type="web-design">
+            <a href="assets/images/property_2.png" class="prettyPhoto" title="Custom Design">
+               <span class="roll"></span>
+                <img src="assets/images/property_2.png"/>
+                <div class="pfolio_desc">
+                  <p>Here you can edit all the content and style of the Property page of your site.</p>
+                </div>
+            </a>
+          </li>
+ 
+</ul>
+
+<div id="video">
+<p>The following video shows how you can add Property page in your theme:</p>
+   <iframe src="http://player.vimeo.com/video/92881715?title=0&amp;byline=0&amp;portrait=0" width="580" height="383" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+</div>
+
+<h3>Configuration Plan Style</h3><hr class="notop">
+
+<p>In this option you can add the site plans. You can add prices, text, button link, etc...</p>
+
+<ul id="portfolio_items" class="clearfix">
+
+          <li data-id="id21" class="portfolio_item pfolio2 eight columns" data-type="web-design">
+            <a href="assets/images/plan_1.png" class="prettyPhoto" title="Custom Design">
+               <span class="roll"></span>
+                <img src="assets/images/plan_1.png"/>
+                <div class="pfolio_desc">
+                  <p>Here you can edit all the content and style of the Plan page of your site.</p>
+                </div>
+            </a>
+          </li>
+		  <li data-id="id21" class="portfolio_item pfolio2 eight columns" data-type="web-design">
+            <a href="assets/images/plan_2.png" class="prettyPhoto" title="Custom Design">
+               <span class="roll"></span>
+                <img src="assets/images/plan_2.png"/>
+                <div class="pfolio_desc">
+                  <p>Here you can edit all the content and style of the Plan page of your site.</p>
+                </div>
+            </a>
+          </li>
+ 
+</ul>
+
+<div id="video">
+<p>The following video shows how you can add plan in your theme:</p>
+   <iframe src="http://player.vimeo.com/video/92292717?title=0&amp;byline=0&amp;portrait=0" width="580" height="383" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+</div>
+
+<h3>Configuration Team Style</h3><hr class="notop">
+
+<p>In this option you can add the site Team. You can add name, icon, text, button link, etc...</p>
+
+<ul id="portfolio_items" class="clearfix">
+
+          <li data-id="id21" class="portfolio_item pfolio2 eight columns" data-type="web-design">
+            <a href="assets/images/team_1.png" class="prettyPhoto" title="Custom Design">
+               <span class="roll"></span>
+                <img src="assets/images/team_1.png"/>
+                <div class="pfolio_desc">
+                  <p>Here you can edit all the content and style of the Team page of your site.</p>
+                </div>
+            </a>
+          </li>
+		  <li data-id="id21" class="portfolio_item pfolio2 eight columns" data-type="web-design">
+            <a href="assets/images/team_2.png" class="prettyPhoto" title="Custom Design">
+               <span class="roll"></span>
+                <img src="assets/images/team_2.png"/>
+                <div class="pfolio_desc">
+                  <p>Here you can edit all the content and style of the Team page of your site.</p>
+                </div>
+            </a>
+          </li>
+ 
+</ul>
+
+<div id="video">
+<p>The following video shows how you can add Team in your theme:</p>
+   <iframe src="http://player.vimeo.com/video/92883317?title=0&amp;byline=0&amp;portrait=0" width="580" height="383" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+</div>
+
+<h3>Configuration Agent Style</h3><hr class="notop">
+
+<p>In this option you can add the site Agent. You can add name, mail, icon, text, button link, etc...</p>
+
+<ul id="portfolio_items" class="clearfix">
+
+          <li data-id="id21" class="portfolio_item pfolio2 eight columns" data-type="web-design">
+            <a href="assets/images/agent_1.png" class="prettyPhoto" title="Custom Design">
+               <span class="roll"></span>
+                <img src="assets/images/agent_1.png"/>
+                <div class="pfolio_desc">
+                  <p>Here you can edit all the content and style of the Agent of your site.</p>
+                </div>
+            </a>
+          </li>
+		  <li data-id="id21" class="portfolio_item pfolio2 eight columns" data-type="web-design">
+            <a href="assets/images/agent_2.png" class="prettyPhoto" title="Custom Design">
+               <span class="roll"></span>
+                <img src="assets/images/agent_2.png"/>
+                <div class="pfolio_desc">
+                  <p>Here you can edit all the content and style of the Agent of your site.</p>
+                </div>
+            </a>
+          </li>
+ 
+</ul>
+
+<div id="video">
+<p>The following video shows how you can add Agent in your theme:</p>
+   <iframe src="http://player.vimeo.com/video/92886471?title=0&amp;byline=0&amp;portrait=0" width="580" height="383" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+</div>
+
+
+<h3>Configuration Dynamics Sidebars Style</h3><hr class="notop">
+
+<p>Want your pages, posts and/or custom post types to have different sidebar? An awesome plugin that let you have a custom sidebar (widget area) for every page, post and/or custom post type.</p>
+
+<ul id="portfolio_items" class="clearfix">
+
+          <li data-id="id21" class="portfolio_item pfolio2 eight columns" data-type="web-design">
+            <a href="assets/images/sidebar_1.png" class="prettyPhoto" title="Custom Design">
+               <span class="roll"></span>
+                <img src="assets/images/sidebar_1.png"/>
+                <div class="pfolio_desc">
+                  <p>Here you can edit all the content and style of the Dynamics Sidebars of your site.</p>
+                </div>
+            </a>
+          </li>
+		  <li data-id="id21" class="portfolio_item pfolio2 eight columns" data-type="web-design">
+            <a href="assets/images/sidebar_2.png" class="prettyPhoto" title="Custom Design">
+               <span class="roll"></span>
+                <img src="assets/images/sidebar_2.png"/>
+                <div class="pfolio_desc">
+                  <p>Here you can edit all the content and style of the Dynamics Sidebars of your site.</p>
+                </div>
+            </a>
+          </li>
+ 
+</ul>
+
+<div id="video">
+<p>The following video shows how you can add Dynamics Sidebars in your theme:</p>
+   <iframe src="http://player.vimeo.com/video/92887287?title=0&amp;byline=0&amp;portrait=0" width="580" height="383" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+</div>
+
+<h3>Configuration Filter option and Properties page</h3><hr class="notop">
+
+<p>In this option you can add the content filter site. The filter contains several filtering options as a filter by location, by price, by area, etc.. </p>
+
+<p>Here you can also see how the product is configured properties. On this page you can display all the properties you have in place, you can display the filter and also capable of displaying a sidebar you want.</p>
+
+<ul id="portfolio_items" class="clearfix">
+
+          <li data-id="id21" class="portfolio_item pfolio2 eight columns" data-type="web-design">
+            <a href="assets/images/filter_1.png" class="prettyPhoto" title="Custom Design">
+               <span class="roll"></span>
+                <img src="assets/images/filter_1.png"/>
+                <div class="pfolio_desc">
+                  <p>Here you can edit all the content and style of the Filter option and Properties of your site.</p>
+                </div>
+            </a>
+          </li>
+		  <li data-id="id21" class="portfolio_item pfolio2 eight columns" data-type="web-design">
+            <a href="assets/images/filter_2.png" class="prettyPhoto" title="Custom Design">
+               <span class="roll"></span>
+                <img src="assets/images/filter_2.png"/>
+                <div class="pfolio_desc">
+                  <p>Here you can edit all the content and style of the Filter option and Properties of your site.</p>
+                </div>
+            </a>
+          </li>
+ 
+</ul>
+
+<div id="video">
+<p>The following video shows how you can add Filter option and Properties in your theme:</p>
+   <iframe src="http://player.vimeo.com/video/93010204?title=0&amp;byline=0&amp;portrait=0" width="580" height="383" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+</div>
+
+<h3>Configuration Page 404</h3><hr class="notop">
+
+<p>	- The theme has a unique design for the 404 error page, on this page you can add and edit text, images, links, etc.. and will be possible to have an error page adapted to the design of your site.</p>
+
+<ul id="portfolio_items" class="clearfix">
+
+          <li data-id="id21" class="portfolio_item pfolio2 eight columns" data-type="web-design">
+            <a href="assets/images/404_1.png" class="prettyPhoto" title="Custom Design">
+               <span class="roll"></span>
+                <img src="assets/images/404_1.png"/>
+                <div class="pfolio_desc">
+                  <p>Here you can edit all the content and style of the 404 page of your site.</p>
+                </div>
+            </a>
+          </li>
+		  <li data-id="id21" class="portfolio_item pfolio2 eight columns" data-type="web-design">
+            <a href="assets/images/404_1.png" class="prettyPhoto" title="Custom Design">
+               <span class="roll"></span>
+                <img src="assets/images/404_2.png"/>
+                <div class="pfolio_desc">
+                  <p>Here you can edit all the content and style of the 404 page of your site.</p>
+                </div>
+            </a>
+          </li>
+ 
+</ul>
+
+</section>
+
+<h3>Configuration Other Page</h3><hr class="notop">
+
+
+<div id="video">
+<p>The following video shows how you can add About page in your theme:</p>
+   <iframe src="http://player.vimeo.com/video/92936512?title=0&amp;byline=0&amp;portrait=0" width="580" height="383" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+</div>
+
+
+
+<section id="icons">
+
+
+<h3>Configuration Icon</h3><hr class="notop">
+
+<p>	- In the site we use icons with a plugin called Font Awesome More Icons which content 400 types of icons, you can change size, and color and you can give to your site the one you like.</p>
+
+<p>How to install</p>
+
+<p> -  above all it is very important that you copy the plugins called "Font Awesome More Icons" in http://yourdomain.com/your_wordpress_dir/wp-content//plugins </p>
+<p> -  after copy go to the administration panel of Wordpress "Dashboard" and in section plugins, activate the plugins "Font Awesome More Icons".And thus is activated the plugin.</p>
+
+<ul id="portfolio_items" class="clearfix">
+
+          <li data-id="id21" class="portfolio_item pfolio2 eight columns" data-type="web-design">
+            <a href="assets/images/icon_1.png" class="prettyPhoto" title="Custom Design">
+               <span class="roll"></span>
+                <img src="assets/images/icon_1.png"/>
+                <div class="pfolio_desc">
+                  <p>Here you can edit all the content and style of the Icons page of your site.</p>
+                </div>
+            </a>
+          </li>
+		  <li data-id="id21" class="portfolio_item pfolio2 eight columns" data-type="web-design">
+            <a href="assets/images/icon_2.png" class="prettyPhoto" title="Custom Design">
+               <span class="roll"></span>
+                <img src="assets/images/icon_2.png"/>
+                <div class="pfolio_desc">
+                  <p>Here you can edit all the content and style of the Icons page of your site.</p>
+                </div>
+            </a>
+          </li>
+ 
+</ul>
+
+</section>
+
+
+
+<section id="demo">
+	
+<h3>Import Backup Demo</h3><hr class="notop">
+
+<p>You can add all the contents of the site and put your site identical to the demo of the theme. just follow the steps in the import of all content.</p>
+
+<p>You can import the entire contents of the subject in: your site / Dashboard / Appearance / Import - Export<p>
+
+    <ul>
+	    <li>Is very important that you copy the plugins called "wordpress-importer" in http://yourdomain.com/your_wordpress_dir/wp-content//plugins</li>
+		<li>after copy go to the administration panel of Wordpress "Dashboard" and in section plugins, activate the plugins "wordpress-importer".And thus is activated the plugin.</li>
+        <li>Import Settings : Here you can import the entire contents of the "Theme Options " site, where is all the content that you edit in the panel adminostracion your topic. To import the content area should only give examine , and find a file called " options-backup.json , luggage gives the Upload File and Import button and set its contents be saved.</li>
+        <li>Import Wordpress Post : here you could import all WordPress -related content such as page , post , blog , image , etc.. To import the content area should only give examine , and find a file called " smarthost.wordpress.xml , luggage gives the Upload File and Import button and set its contents be saved.</li>
+		<li>After importing all content, you should proceed to their menu actitivar in: your site / Dashboard / Appearance / menus</li>
+    </ul>
+
+<ul id="portfolio_items" class="clearfix">
+
+          <li data-id="id22" class="portfolio_item pfolio2 eight columns" data-type="web-design">
+            <a href="assets/images/backup_1.png" class="prettyPhoto" title="Custom Design">
+               <span class="roll"></span>
+                <img src="assets/images/backup_1.png"/>
+                <div class="pfolio_desc">
+                  <p>Here you can import demo backup in your site.</p>
+                </div>
+            </a>
+          </li>
+		  <li data-id="id23" class="portfolio_item pfolio2 eight columns" data-type="web-design">
+            <a href="assets/images/backup_2.png" class="prettyPhoto" title="Custom Design">
+               <span class="roll"></span>
+                <img src="assets/images/backup_2.png"/>
+                <div class="pfolio_desc">
+                  <p>Here you can import demo backup in your site.</p>
+                </div>
+            </a>
+          </li>
+ 
+</ul>
+
+<div id="video">
+<p>The following video shows how you can import demo backup in your theme:</p>
+   <iframe src="http://player.vimeo.com/video/92292403?title=0&amp;byline=0&amp;portrait=0" width="580" height="383" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+</div>
+
+</section>
+
+
+<section id="map">
+
+<h3>WP Google Maps</h3><hr class="notop">
+
+<p>Nuestro sitio muestra un mapa en la pagina Contacto, el cual integramos con el plugins de wordpress "WP Google Maps". Este plugins le da la facilidad de agregar varias formas de mostrar su mapa.</p>
+
+<p>The easiest to use Google maps plugin! Add your customized Google map to your WordPress posts and/or pages quickly and easily with the supplied shortcode. No fuss. No iFrames and super easy to use! Perfect for contact pages, coverage maps and any other use you can think of!</p>
+
+<a href="http://wordpress.org/plugins/wp-google-maps/" rel="nofollow">WP Google Maps</a>
+
+<p>How to install</p>
+
+<p> -  above all it is very important that you copy the plugins called "wp-google-maps" in http://yourdomain.com/your_wordpress_dir/wp-content//plugins </p>
+<p> -  after copy go to the administration panel of Wordpress "Dashboard" and in section plugins, activate the plugins "wp-google-maps".And thus is activated the plugin.</p>
+
+<p>Then proceed to the wp-google-maps system settings on your subject.</p>
+
+<p> - First you must create your map and add your "Location" to set your map will be displayed as defined width, length, etc ... </p>
+<p> - After configuring your map, you must follow these steps to turn your show your map on contact page </p>
+
+<ol>
+                    <li>Go to Dashboard/Maps/your map name</li>
+					<li>Copy the text that is inside the box called "Short code:"</li>
+					<li>Go to the contact page Dashboard/Pages/contact</li>
+					<li>And paste in the text editor page the copied text into the box "Short code:" </li>
+					<li>Then save your map and display correctly on your contact page.</li>
+
+</ol>
+
+<ul id="portfolio_items" class="clearfix">
+
+          <li data-id="id22" class="portfolio_item pfolio2 eight columns" data-type="web-design">
+            <a href="assets/images/map_1.png" class="prettyPhoto" title="Custom Design">
+               <span class="roll"></span>
+                <img src="assets/images/map_1.png"/>
+                <div class="pfolio_desc">
+                  <p>Here you can edit all your WP Google Maps.</p>
+                </div>
+            </a>
+          </li>
+		  <li data-id="id23" class="portfolio_item pfolio2 eight columns" data-type="web-design">
+            <a href="assets/images/contact_2.png" class="prettyPhoto" title="Custom Design">
+               <span class="roll"></span>
+                <img src="assets/images/contact_2.png"/>
+                <div class="pfolio_desc">
+                  <p>Here you can edit all your WP Google Maps.</p>
+                </div>
+            </a>
+          </li>
+ 
+</ul>
+
+<div id="video">
+<p>The video below demonstrates how you can create new Google Maps:</p>
+   <iframe src="http://player.vimeo.com/video/93011359?title=0&amp;byline=0&amp;portrait=0" width="580" height="383" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+</div>
+
+</section>
+
+<section id="newslatter">
+	
+<h3>Newslatter</h3><hr class="notop">
+
+<p>The Newsletter option of our site is integrated with WordPress plugins "MailChimp List Subscribe Form" which gives the facility to create multiple lists, reports, etc. This plugin is free to use.</p>
+
+<p>How to install</p>
+<ul>
+
+   <li> Above all it is very important that you copy the plugins called "whmcs-bridge" in http://yourdomain.com/your_wordpress_dir/wp-content//plugins </li>
+   <li> After copy go to the administration panel of Wordpress "Dashboard" and in section plugins, activate the plugins "whmcs-bridge".And thus is activated the plugin.</li>
+   <li> Then go to the plugins site and create an account in http://www.mailchimp.com<</li>
+   <li> After creating your account, it is important to create your first list "Create lists"</li>
+   <li> Go to your website panel in Settings / MailChimp Setup and enter the account details created in Mailchimp.com and active after entering the list you want on your site.</li>
+
+</ul>
+
+
+<ul id="portfolio_items" class="clearfix">
+
+          <li data-id="id22" class="portfolio_item pfolio2 eight columns" data-type="web-design">
+            <a href="assets/images/newslatter_1.png" class="prettyPhoto" title="Custom Design">
+               <span class="roll"></span>
+                <img src="assets/images/newslatter_1.png"/>
+                <div class="pfolio_desc">
+                  <p>Here you can edit the newlatter option in your site.</p>
+                </div>
+            </a>
+          </li>
+		  <li data-id="id23" class="portfolio_item pfolio2 eight columns" data-type="web-design">
+            <a href="assets/images/newslatter_2.png" class="prettyPhoto" title="Custom Design">
+               <span class="roll"></span>
+                <img src="assets/images/newslatter_2.png"/>
+                <div class="pfolio_desc">
+                  <p>Here you can edit the newlatter option in your site.</p>
+                </div>
+            </a>
+          </li>
+ 
+</ul>
+
+<div id="video">
+<p>The following video shows how you can edit the newslatter zone in your theme:</p>
+   <iframe src="http://player.vimeo.com/video/93063648?title=0&amp;byline=0&amp;portrait=0" width="580" height="383" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+</div>
+
+</section>
+
+<section id="background_style">
+	
+<h3>Background and Fonts Style</h3><hr class="notop">
+
+<p>Background In the Style option you can edit all colors styles all the texts, buttons, links, backgrounds, background, etc...</p>
+<p>In Style Fonts option you can edit all colors, styles, font, size, etc, all sources of your site.</p>
+
+
+<ul id="portfolio_items" class="clearfix">
+
+          <li data-id="id22" class="portfolio_item pfolio2 eight columns" data-type="web-design">
+            <a href="assets/images/background_1.png" class="prettyPhoto" title="Custom Design">
+               <span class="roll"></span>
+                <img src="assets/images/background_1.png"/>
+                <div class="pfolio_desc">
+                  <p>Here you can edit all the Background Style in your site.</p>
+                </div>
+            </a>
+          </li>
+		  <li data-id="id23" class="portfolio_item pfolio2 eight columns" data-type="web-design">
+            <a href="assets/images/background_2.png" class="prettyPhoto" title="Custom Design">
+               <span class="roll"></span>
+                <img src="assets/images/background_2.png"/>
+                <div class="pfolio_desc">
+                  <p>Here you can edit all the Background Style in your site.</p>
+                </div>
+            </a>
+          </li>
+ 
+</ul>
+
+</section>
+
+<section id="css">
+	<h3>CSS styles</h3><hr class="notop">
+<p>Here&#39;s the filestructure of the css folder:</p>
+<p>I'm using a master file of CSS (styles.css) in this issue that you are free to change depending on the customization you want. four are also three additional stylesheets that change is not recommended. Style sheets lies in the 'CSS' folder and their subfolders, such as slide/style.css. The web page additional stylesheets are:</p>
+<ul>
+
+<li>styles.css (General styles)</li>
+<li>animate.css</li>
+<li>bootstrap.css</li>
+<li>font-awesome.css (Icons styles)
+<li>camera.css
+<li>ie.css (This stylesheet IESS shim is in Internet Explorer 8)</li>
+
+</ul>
+</section>
+
+
+<section id="jguery">
+	<h3>jQuery</h3><hr class="notop">
+<p>Here&#39;s the filestructure of the jquery folder:</p>
+<p>Here named the jquery used in the subject, which are what help us to give better visual effects to the subject.</p>
+		<ol>			
+			<li><a href="http://jquery.com/" target="blank">jquery-1.9.1.min.js</a></li>			
+		</ol>
+<ul>
+		
+<li>bootstrap.js</li>
+<li>jquery-func.js</li>
+<li>jquery.content-panel-switcher.js</li>
+<li>load-gm.js</li>
+<li>camera.js</li>
+<li>jquery.easing.1.3.min.js</li>
+<li>tinynav.js</li>
+<li>superfish.js</li>
+<li>jquery.ui.totop.js</li>
+<li>jquery.sticky.js</li>
+<li>jquery.fancybox-1.3.1.js</li>
+
+</ul>
+</ul>
+</section>
+
+<p class="warning">
+The ie.css file in the root of the css directory contains some extra css for IE7 and IE8 which should get modified carefully!</p>
+
+<section id="different_resolutions">
+	<h3>Different Resolutions</h3><hr class="notop">
+<p>	This Theme uses <strong>media queries</strong> to change appearance depending on the users screen resolution.</p>
+<p>	The layout change on follwing resolutions:</p>
+
+<ul>	
+    <li>		&gt; 1280px (large screen resolution)</li>
+	<li>		&gt; 900px (most common screen resolution)</li>
+	<li>		&gt; 800px (smaller screens like iPad in portrait mode)</li>
+	<li>		&gt; 480px (small screen resolution like iPhone or Android phones)</li>
+</ul>
+<p class="info">
+	You can test different screen resolutions by resizing the browser window with a modern browser</p>
+<p>&nbsp;	</p>
+
+</section>
+
+<section id="sources_credits">
+	<h3>Sources & Credits</h3><hr class="notop">
+
+
+	<h5>Demo graphics</h5>	
+	<ul>
+		<li><a href="http://iconfinder.com" target="_blank">iconfinder.com</a></li>
+	</ul>
+
+		<p>This theme has a responsive design with variation of column layouts depending on the page.This theme is based on bootstrap 1170px (12 columns), which will help streamline any customization you want to perform. If you are unfamiliar with grid system, be sure to read about it <a href="http://twitter.github.com/bootstrap/" target="blank">here</a>.</p>
+
+		<p>The main structure of this site is wrapped in a "container" div, followed by a "row-fluid" div. These div Within each section is given a site's home grid size equaling  all 12 columns long.</p>
+		
+		<p>	This topic has the following structure has aslide or section, and footer content, this is the following structure:</p>
+		
+
+		<div>
+			<p>If you would like to edit the color, font, or style of any elements in one of these columns, you would search the classes&acute; names or id&acute;s names and go to css, search the name selected and make the changes that you want &nbsp;:</p>
+		</div>
+
+		<p>Note: If you want change something about I.E. &nbsp;in the &nbsp;folder folder &quot;css&quot; there is one called &quot;ie&quot;. &nbsp; Also, there is a file called simple-menu-ie.css where is styles of menu</p>
+		
+<p>&nbsp;
+	</p>
+</section>
+
+<section id="Rating">
+	<h3>Give a vote for our subject</h3><hr class="notop">
+<p>If our subject is to your liking, we would like to help us give "Rating" to the issue, if not familiar with this option themforest to give "Rating" to the issues, here we show you how you can give a vote to our issue, which is its subject.</p>
+
+	<h5>We hope your vote.</h5>	
+	
+<img src="assets/images/rating.jpg">
+</section>
+
+
+<section id="final_words">
+	<h3>Final Words</h3><hr class="notop">
+<p>Once again, thank you so much for purchasing this theme. As I said at the beginning, I&#39;d be glad to help you if you have any questions relating to this theme. No guarantees, but I&#39;ll do my best to assist. If you have a more general question relating to the themes on ThemeForest, you might consider visiting the forums and asking your question in the &quot;Item Discussion&quot; section.</p>
+<p>I put a lot of time into this project. Nevertheless some bugs could appear after the release. Please <a href="http://themeforest.net/user/freedesigns">contact</a> me in this case and I&#39;ll provide an update asap.</p>
+<p>Best wishes</p>
+<p><strong> <a href="http://themeforest.net/user/freedesigns">freedesigns</a></strong></p>
+</section>
+
+	</div>
+<script type="text/javascript">
+  $(document).ready(function(){
+    $("a[class^='prettyPhoto']").prettyPhoto();
+  });
+</script> 
+</body>
+</html>

@@ -1,0 +1,94 @@
+FONTS
+
+13 Fonts Used; 0 Missing, 0 Embedded, 0 Incomplete, 0 Protected
+
+- Name: Arial-Black; Type: OpenType TrueType, Status: OK
+Filename: Arial Black.ttf
+Full Name: Arial Black
+First Used on Page: 1
+Protected: No
+Download: http://www.fontspace.com/peter-wiegel/doergon
+
+- Name: Arial-BoldMT; Type: OpenType TrueType, Status: OK
+Filename: Arial Bold.ttf
+Full Name: Arial Bold
+First Used on Page: 10
+Protected: No
+Download: http://www.fontspace.com/peter-wiegel/doergon
+
+- Name: Arial-ItalicMT; Type: OpenType TrueType, Status: OK
+Filename: Arial Italic.ttf
+Full Name: Arial Italic
+First Used on Page: 22
+Protected: No
+Download: http://www.fontspace.com/peter-wiegel/doergon
+
+- Name: ArialMT; Type: OpenType TrueType, Status: OK
+Filename: Arial.ttf
+Full Name: Arial
+First Used on Page: 1
+Protected: No
+Download: http://www.fontspace.com/peter-wiegel/doergon
+
+- Name: Braggadocio; Type: OpenType TrueType, Status: OK
+Filename: Microsoft:Braggadocio
+Full Name: Braggadocio
+First Used on Page: 14
+Protected: No
+Braggadocio is commercial font and can be purchased for $ 20 here:  http://www.ascenderfonts.com/font/braggadocio.aspx. This font is used in a few headings and you can replace it with other font of your choice.
+
+- Name: Coda-Heavy; Type: TrueType, Status: OK
+Filename: Coda-Heavy.ttf
+Full Name: Coda Heavy
+First Used on Page: 22
+Protected: No
+Download: http://www.fontsquirrel.com/fonts/coda
+
+- Name: Comfortaa; Type: TrueType, Status: OK
+Filename: Comfortaa_Regular.ttf
+Full Name: Comfortaa
+First Used on Page: 1
+Protected: No
+Download: http://www.fontsquirrel.com/fonts/Comfortaa
+
+- Name: Comfortaa-Bold; Type: TrueType, Status: OK
+Filename: Comfortaa_Bold.ttf
+Full Name: Comfortaa Bold
+First Used on Page: 1
+Protected: No
+Download: http://www.fontsquirrel.com/fonts/Comfortaa
+
+- Name: GiddyupStd; Type: OpenType Type 1, Status: OK
+Filename: GiddyupStd.otf
+Full Name: Giddyup Std
+First Used on Page: 1
+Protected: No
+GiddyupStd is a commercial font and can be purchased at  http://new.myfonts.com/fonts/adobe/giddyup/. This font is only used once on the cover page so you can substitute it without any loss.
+
+- Name: Impact; Type: OpenType TrueType, Status: OK
+Filename: Impact.ttf
+Full Name: Impact
+First Used on Page: 1
+Protected: No
+Impact is commercial font and can be purchased at  http://new.myfonts.com/fonts/urw/impact/. This font is only used once (magazine name, cover page) so you can substitute it without any loss.
+
+- Name: TitilliumText22L-Bold; Type: OpenType Type 1, Status: OK
+Filename: TitilliumText22L005.otf
+Full Name: TitilliumText22L-Bold
+First Used on Page: 4
+Protected: No
+Download: http://www.fontsquirrel.com/fonts/TitilliumText
+
+- Name: TitilliumText22L-Regular; Type: OpenType Type 1, Status: OK
+Filename: TitilliumText22L003.otf
+Full Name: TitilliumText22L-Regular
+First Used on Page: 1
+Protected: No
+Download: http://www.fontsquirrel.com/fonts/TitilliumText
+
+- Name: TitilliumText22L-XBold; Type: OpenType Type 1, Status: OK
+Filename: TitilliumText22L006.otf
+Full Name: TitilliumText22L-XBold
+First Used on Page: 1
+Protected: No
+Download: http://www.fontsquirrel.com/fonts/TitilliumText

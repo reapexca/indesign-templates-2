@@ -1,0 +1,20 @@
+FONTS
+
+3 Fonts Used; 0 Missing, 0 Embedded, 0 Incomplete, 0 Protected
+
+- Name: Arial-BoldMT; Type: OpenType TrueType, Status: OK
+Full Name: Arial Bold
+First Used on Page: 1
+Protected: No
+
+- Name: Arial-ItalicMT; Type: OpenType TrueType, Status: OK
+Full Name: Arial Italic
+First Used on Page: 1
+Protected: No
+
+- Name: ArialMT; Type: OpenType TrueType, Status: OK
+Full Name: Arial
+First Used on Page: 1
+Protected: No
+
+These are system fonts and should be installed on your computer already.

@@ -1,0 +1,77 @@
+/*
+*  Icon field Style
+*
+*  @description: 
+*  @since: 3.6
+*  @created: 30/01/14
+*/
+
+.acf-icon-wrap {
+    display: block;
+    width: 100%;
+    height: 80px
+}
+/******************************************
+    SLIDESHOW ICON COMPONENT    
+******************************************/
+.acf-icon-wrap .out-slide{
+    width: 185px;
+    overflow: hidden;
+    height: 75px;
+    padding: 1px;
+    float: left;
+}
+.acf-icon-wrap .slide-content{
+    height: 21px;
+    width: 10700px;
+    float: left;
+}
+.acf-icon-wrap .icon-cloude{
+    width:25px;
+    height:25px;
+    padding:3px 3px 0px 3px;    
+    float: left;
+    font-size: 18px; 
+    text-align: center;
+    border:3px solid rgb(250,250,250);
+}
+.acf-icon-wrap .icon-cloude, .acf-icon-wrap .icon-cloude i{
+    cursor: pointer;
+}
+.acf-icon-wrap .icon-selected {
+    border:3px solid #ccc;
+}
+.acf-icon-wrap .sel-icon{
+    margin: 20px 20px;    
+    text-align: center;
+    width:35px;
+    height:35px;
+    font-size: 30px;   
+    float: left;
+    border: 1px solid #000;
+    border-radius: 2px;
+}
+/**NAV BUTTON***/
+
+
+.acf-icon-wrap .slide-left{    
+    margin-right: 5px;
+    margin-top: 30px;
+    border-bottom: 9px solid transparent;
+    border-right: 11px solid #ccc;
+    border-top: 9px solid transparent;
+    border-radius: 2px;
+    float: left;
+    cursor: pointer;        
+}
+.acf-icon-wrap .slide-right{
+    margin-left: 5px;
+    margin-top: 30px;
+    border-bottom: 9px solid transparent;
+    border-left: 11px solid #ccc;
+    border-top: 9px solid transparent;
+    border-radius: 2px;
+    float: left;
+    cursor: pointer;
+}
+/******************************************/

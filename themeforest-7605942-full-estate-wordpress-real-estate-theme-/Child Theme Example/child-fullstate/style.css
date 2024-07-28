@@ -1,0 +1,15 @@
+/*   
+Theme Name: Full State Child
+Theme URI: http://www.freedesigns.me/wp/fullstate/
+Description: Full State is a clean and elegant WordPress theme for Real State and corporate. This template can also be used for business websites, portfolios and more. The CSS and design is flexible, easy to customize and modify. Is a unique design based on Bootstrap, is sensitive and is consistent with a wide range of mobile devices.
+Author: <a href="http://www.freedesigns.me">Freedesigns</a>
+Author URI: http://www.freedesigns.me/
+Version: 1.0
+License: Comercial
+License URI: http://www.freedesigns.me/wp/fullstate/license/
+Tags: left-sidebar, right-sidebar, custom-background, custom-header, custom-menu, editor-style, full-width-template, theme-options, translation-ready
+Text Domain: Fullstate Child
+Template:fullstate
+*/
+
+@import url("../fullstate/style.css");

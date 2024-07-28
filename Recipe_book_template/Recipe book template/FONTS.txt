@@ -1,0 +1,29 @@
+FONTS
+
+4 Fonts Used; 0 Missing, 0 Embedded, 0 Incomplete, 0 Protected
+
+- Name: Dustismo; Type: TrueType, Status: OK
+Full Name: Dustismo Regular
+First Used on Page: 18
+Protected: No
+Download: http://www.fontsquirrel.com/fonts/Dustismo
+
+- Name: MarketingScript; Type: TrueType, Status: OK
+Full Name: Marketing Script
+First Used on Page: 17
+Protected: No
+Download: http://www.dafont.com/marketing-script.font
+
+- Name: TitilliumText22L-Regular; Type: OpenType Type 1, Status: OK
+Full Name: TitilliumText22L-Regular
+First Used on Page: 18
+Protected: No
+Download: http://www.fontsquirrel.com/fonts/TitilliumText
+
+- Name: TitilliumText22L-XBold; Type: OpenType Type 1, Status: OK
+Full Name: TitilliumText22L-XBold
+First Used on Page: 17
+Protected: No
+Download: http://www.fontsquirrel.com/fonts/TitilliumText
+
+

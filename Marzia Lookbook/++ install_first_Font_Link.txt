@@ -1,0 +1,5 @@
+Please install fonts before use this template!
+
+Montserrat : http://www.fontsquirrel.com/fonts/montserrat
+Source Sans Pro : http://www.fontsquirrel.com/fonts/source-sans-pro
+Bakery : http://www.dafont.com/bakery2.font

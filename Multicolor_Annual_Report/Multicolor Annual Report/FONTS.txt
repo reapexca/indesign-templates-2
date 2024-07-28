@@ -1,0 +1,41 @@
+FONTS
+
+5 Fonts Used; 0 Missing, 0 Embedded, 0 Incomplete, 0 Protected
+
+- Name: Arial-BoldMT; Type: OpenType TrueType, Status: OK
+Filename: Arial Bold.ttf
+Full Name: Arial Bold
+First Used on Page: 11
+Protected: No
+Download: system font, should be installed on your computer by default
+
+- Name: ArialMT; Type: OpenType TrueType, Status: OK
+Filename: Arial.ttf
+Full Name: Arial
+First Used on Page: 18
+Protected: No
+Download: system font, should be installed on your computer by default
+
+- Name: BebasNeue; Type: OpenType Type 1, Status: OK
+Filename: BebasNeue.otf
+Full Name: Bebas Neue
+First Used on Page: 18
+Protected: No
+Download: http://www.dafont.com/bebas-neue.font   
+
+- Name: TitilliumText22L-Bold; Type: OpenType Type 1, Status: OK
+Filename: TitilliumText22L005.otf
+Full Name: TitilliumText22L-Bold
+First Used on Page: 18
+Protected: No
+Download: http://www.fontsquirrel.com/fonts/TitilliumText
+
+- Name: TitilliumText22L-Regular; Type: OpenType Type 1, Status: OK
+Filename: TitilliumText22L003.otf
+Full Name: TitilliumText22L-Regular
+First Used on Page: 18
+Protected: No
+Download: http://www.fontsquirrel.com/fonts/TitilliumText
+
+
+

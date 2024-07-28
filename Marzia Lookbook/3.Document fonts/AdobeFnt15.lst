@@ -1,0 +1,146 @@
+%!Adobe-FontList 1.15
+%Locale:0x421
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Bakery
+FamilyName:Bakery
+StyleName:Regular
+FullName:Bakery
+MenuName:Bakery
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Rifqi Ali Ridho\Desktop\Marzia Lookbook Folder\Document fonts\bakery.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:49928
+FileModTime:1446444322
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Bakery
+NameArray:0,Win,1,Bakery
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MinionPro-Regular
+FamilyName:Minion Pro
+StyleName:Regular
+FullName:Minion Pro
+MenuName:Minion Pro
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Rifqi Ali Ridho\Desktop\Marzia Lookbook Folder\Document fonts\MinionPro-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:218640
+FileModTime:1363339532
+WeightClass:400
+WidthClass:5
+AngleClass:0
+DesignSize:110
+NameArray:0,Mac,4,Minion Pro
+NameArray:0,Win,1,Minion Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Montserrat-Bold
+FamilyName:Montserrat
+StyleName:Bold
+FullName:Montserrat Bold
+MenuName:Montserrat
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\Users\Rifqi Ali Ridho\Desktop\Marzia Lookbook Folder\Document fonts\Montserrat-Bold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:45968
+FileModTime:1459821812
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Montserrat Bold
+NameArray:0,Win,1,Montserrat
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Montserrat-Regular
+FamilyName:Montserrat
+StyleName:Regular
+FullName:Montserrat
+MenuName:Montserrat
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Rifqi Ali Ridho\Desktop\Marzia Lookbook Folder\Document fonts\Montserrat-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:45360
+FileModTime:1459821812
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Montserrat
+NameArray:0,Win,1,Montserrat
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:SourceSansPro-Light
+FamilyName:Source Sans Pro
+StyleName:Light
+FullName:Source Sans Pro Light
+MenuName:Source Sans Pro Light
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Rifqi Ali Ridho\Desktop\Marzia Lookbook Folder\Document fonts\SourceSansPro-Light.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:226032
+FileModTime:1459822036
+WeightClass:300
+WidthClass:5
+AngleClass:0
+DesignSize:100
+NameArray:0,Mac,4,Source Sans Pro Light
+NameArray:0,Win,1,Source Sans Pro Light
+NameArray:0,Win,16,Source Sans Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:SourceSansPro-Semibold
+FamilyName:Source Sans Pro
+StyleName:Semibold
+FullName:Source Sans Pro Semibold
+MenuName:Source Sans Pro Semibold
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Rifqi Ali Ridho\Desktop\Marzia Lookbook Folder\Document fonts\SourceSansPro-Semibold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:232680
+FileModTime:1459822036
+WeightClass:600
+WidthClass:5
+AngleClass:0
+DesignSize:100
+NameArray:0,Mac,4,Source Sans Pro Semibold
+NameArray:0,Win,1,Source Sans Pro Semibold
+NameArray:0,Win,16,Source Sans Pro
+%EndFont
+

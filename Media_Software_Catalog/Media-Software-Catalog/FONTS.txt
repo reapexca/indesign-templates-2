@@ -1,0 +1,52 @@
+FONTS
+
+7 Fonts Used; 0 Missing, 1 Embedded, 0 Incomplete, 0 Protected
+
+- Name: BebasNeue; Type: Type 1, Status: Embedded
+Filename: NA
+Full Name: BebasNeue
+First Used on Page: First Used on Page: 1 (PDF) logo.ai
+Protected: No
+Download: http://www.dafont.com/bebas-neue.font   
+
+- Name: BebasNeue; Type: OpenType Type 1, Status: OK
+Filename: BebasNeue.otf
+Full Name: Bebas Neue
+First Used on Page: 1
+Protected: No
+Download: http://www.dafont.com/bebas-neue.font   
+
+- Name: TitilliumText22L-Bold; Type: OpenType Type 1, Status: OK
+Filename: TitilliumText22L005.otf
+Full Name: TitilliumText22L-Bold
+First Used on Page: 1
+Protected: No
+Download: http://www.fontsquirrel.com/fonts/TitilliumText
+
+- Name: TitilliumText22L-Light; Type: OpenType Type 1, Status: OK
+Filename: TitilliumText22L002.otf
+Full Name: TitilliumText22L-Light
+First Used on Page: 1
+Protected: No
+Download: http://www.fontsquirrel.com/fonts/TitilliumText
+
+- Name: TitilliumText22L-Regular; Type: OpenType Type 1, Status: OK
+Filename: TitilliumText22L003.otf
+Full Name: TitilliumText22L-Regular
+First Used on Page: 2
+Protected: No
+Download: http://www.fontsquirrel.com/fonts/TitilliumText
+
+- Name: TitilliumText22L-Thin; Type: OpenType Type 1, Status: OK
+Filename: TitilliumText22L001.otf
+Full Name: TitilliumText22L-Thin
+First Used on Page: 1
+Protected: No
+Download: http://www.fontsquirrel.com/fonts/TitilliumText
+
+- Name: TitilliumText22L-XBold; Type: OpenType Type 1, Status: OK
+Filename: TitilliumText22L006.otf
+Full Name: TitilliumText22L-XBold
+First Used on Page: 2
+Protected: No
+Download: http://www.fontsquirrel.com/fonts/TitilliumText

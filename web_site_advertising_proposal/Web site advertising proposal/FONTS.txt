@@ -1,0 +1,52 @@
+FONTS
+
+7 Fonts Used; 0 Missing, 0 Embedded, 0 Incomplete, 0 Protected
+
+- Name: Arial-BoldMT; Type: OpenType TrueType, Status: OK
+Filename: Arial Bold.ttf
+Full Name: Arial Bold
+First Used on Page: 1
+Protected: No
+Download: system font, should be installed on your computer by default
+
+- Name: ArialMT; Type: OpenType TrueType, Status: OK
+Filename: Arial.ttf
+Full Name: Arial
+First Used on Page: 7
+Protected: No
+Download: system font, should be installed on your computer by default
+
+- Name: MyriadPro-Regular; Type: OpenType Type 1, Status: OK
+Filename: MyriadPro-Regular.otf
+Full Name: Myriad Pro
+First Used on Page: 3
+Protected: No
+Download: system font, should be installed on your computer by default
+
+- Name: TitilliumText22L-Regular; Type: OpenType Type 1, Status: OK
+Filename: TitilliumText22L003.otf
+Full Name: TitilliumText22L-Regular
+First Used on Page: 3
+Protected: No
+Download: http://www.fontsquirrel.com/fonts/TitilliumText
+
+- Name: TrebuchetMS; Type: OpenType TrueType, Status: OK
+Filename: Trebuchet MS.ttf
+Full Name: Trebuchet MS
+First Used on Page: 3
+Protected: No
+Download: system font, should be installed on your computer by default
+
+- Name: TrebuchetMS-Bold; Type: OpenType TrueType, Status: OK
+Filename: Trebuchet MS Bold.ttf
+Full Name: Trebuchet MS Bold
+First Used on Page: 7
+Protected: No
+Download: system font, should be installed on your computer by default
+
+- Name: TrebuchetMS-Italic; Type: OpenType TrueType, Status: OK
+Filename: Trebuchet MS Italic.ttf
+Full Name: Trebuchet MS Italic
+First Used on Page: 3
+Protected: No
+Download: system font, should be installed on your computer by default
